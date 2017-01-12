@@ -16,5 +16,6 @@ docker run -d \
     -v /*your_config_location*:/config \
     -v /*your_videos_location*:/data \
      -p 5050:5050 \
-    --restart=always couchpotato
+    --restart=always \
+    --name=couchpotato couchpotato
 ```
