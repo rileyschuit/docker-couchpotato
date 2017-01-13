@@ -10,5 +10,12 @@ cd docker-couchpotato
 docker build -t couchpotato .
 ```
 
-docker run -d -h *your_host_name* -v /*your_config_location*:/config  -v /*your_videos_location*:/data -p 5050:5050 --name couchpotato couchpotato
-
+```
+docker run -d \
+    -h *your_host_name* \
+    -v /*your_config_location*:/config \
+    -v /*your_videos_location*:/data \
+     -p 5050:5050 \
+    --restart=always \
+    --name=couchpotato couchpotato
+```
