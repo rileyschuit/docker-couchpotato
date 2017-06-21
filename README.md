@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/rileyschuit/rpi-docker-couchpotato.svg?branch=master)](https://travis-ci.org/rileyschuit/rpi-docker-couchpotato) 
   
-#Docker couchpotato to run on a Raspberry Pi  
+# Docker couchpotato to run on a Raspberry Pi  
 This is a Dockerfile to set up "CouchPotato" - (https://couchpota.to/)  
 ### Build from docker file  
 ```
